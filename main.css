@@ -18,8 +18,7 @@ body {
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: rgb(34, 255, 211);
-    background-position: 50%;
+    background-color: rgba(72, 209, 204, 1);
 }
 
 .startLetter {
@@ -59,19 +58,6 @@ body {
     overflow-x: hidden;
     font-size: 34px;
     padding: 20px;
-    font-family: 'Dancing Script', cursive !important;
-}
-.clickhere {
-
-    max-height: 500px;
-    position: absolute;
-    transform: translate(-10%, -10%);
-    bottom: 10px;
-    left: 915px;
-    text-shadow: #F2EEE4;
-    height: 70px;
-    font-size: 25px;
-
     font-family: 'Dancing Script', cursive !important;
 }
 
@@ -142,8 +128,7 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: rgb(34, 255, 211);
-    background-position: 50%;
+    background-color: rgba(72, 209, 204, 1);
 }
 
 .balloon {
@@ -228,7 +213,6 @@ body {
     left: 50%;
     bottom: 0;
     transform: translate(-50%, -10px);
-
     height: 80px;
     transition: .5s;
     padding: 20px;

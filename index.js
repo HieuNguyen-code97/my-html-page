@@ -1,5 +1,5 @@
-const contentLetterSrart_actived = ".........." //Lời mở đầu cho bức thư
-const mainContentLetter = "....." //Nội dung của bức thư
+const contentLetterSrart_actived = "Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé." //Lời mở đầu cho bức thư
+const mainContentLetter = "Gửi lời nhắn nhủ đến người bạn bạn yêu thương." //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
@@ -55,6 +55,7 @@ document.querySelector(".recieve").addEventListener("click", () => {
         document.querySelector(".startForm").classList.add("close");
         setTimeout(() => {
             document.querySelector(".startForm").setAttribute("style", "bottom: 100%");
+            
             let getTypeDevice = document.documentElement.clientWidth;
             if (getTypeDevice <= 768) {
                 createLight(20)
