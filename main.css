@@ -18,8 +18,10 @@ body {
     position: fixed;
     height: 100%;
     width: 100%;
+    background-repeat: no-repeat;
     background-image: url(../img/abc.jpg);
     background-size: cover;
+    background-position: 50%;
 }
 
 .startLetter {
