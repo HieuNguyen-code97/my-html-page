@@ -1,5 +1,5 @@
 const contentLetterSrart_actived = "Chúc mừng sinh nhật chị nha!^^" //Lời mở đầu cho bức thư
-const mainContentLetter = "Thương trẻ trâu, Thương trẻ trâu, Thương trẻ trâu..lêu lêu😂😂😂 Xinh đẹp, thành công nha!^^" //Nội dung của bức thư
+const mainContentLetter = "Thương trẻ trâu, Thương trẻ trâu, Thương trẻ trâu..lêu lêu😂😂😂 Xinh đẹp, Thành công nha!^^" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư

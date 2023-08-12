@@ -64,10 +64,10 @@ body {
     font-family: 'Dancing Script', cursive !important;
 }
 .clickhere {
-
-    transform: translateX(-100px);
-    transform: translateY(500px);
     font-size: 24px;
+    position: absolute;
+    bottom: 25px;
+    left: 46%;
     font-family: 'Dancing Script', cursive !important;
 }
 
